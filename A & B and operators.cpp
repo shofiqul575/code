@@ -20,25 +20,25 @@ int main()
         {
             int minus;
             minus=A-B;
-            cout<<"Summation is "<<i<<":"<<minus<<endl;
+            cout<<"Subtraction is "<<i<<":"<<minus<<endl;
         }
         else if(operators=='*')
         {
             int mul;
             mul=A*B;
-            cout<<"Summation is "<<i<<":"<<mul<<endl;
+            cout<<"Multiplication is "<<i<<":"<<mul<<endl;
         }
         else if(operators=='/')
         {
             int div;
             div=A/B;
-            cout<<"Summation is "<<i<<":"<<div<<endl;
+            cout<<"Division is "<<i<<":"<<div<<endl;
         }
         else if(operators=='%')
         {
             int rem;
             rem=A%B;
-            cout<<"Summation is "<<i<<":"<<rem<<endl;
+            cout<<"Remainder is "<<i<<":"<<rem<<endl;
         }
 
     }
